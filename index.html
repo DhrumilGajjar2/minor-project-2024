@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover India with curated travel packages and personalized experiences. Explore destinations like the Taj Mahal, Kerala, and Rajasthan.">
+  <meta property="og:title" content="Tourly - Travel Agency">
+  <meta property="og:description" content="Explore India with Tourly, offering curated packages to popular destinations.">
+  <meta property="og:image" content="./assets/images/social-share.jpg">
+  <meta property="og:url" content="https://www.tourly.com">
+
   <title>Tourly - Travel Agency</title>
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -40,17 +46,18 @@
             <li><a href="https://t.co/CY3nYyFp0O" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
         </ul>
         
-        <!-- Added missing <nav> element -->
+        
         <nav class="navbar">
-            <ul class="navbar-list">
-                <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
-                <li><a href="#" class="navbar-link" data-nav-link>About Us</a></li>
-                <li><a href="#destination" class="navbar-link" data-nav-link>Destinations</a></li>
-                <li><a href="#package" class="navbar-link" data-nav-link>Packages</a></li>
-                <li><a href="#gallery" class="navbar-link" data-nav-link>Gallery</a></li>
-                <li><a href="#contact" class="navbar-link" data-nav-link>Contact Us</a></li>
-            </ul>
+          <ul class="navbar-list">
+            <li><a href="index.html" class="navbar-link">Home</a></li>
+            <li><a href="#about" class="navbar-link">About Us</a></li>
+            <li><a href="destinations.html" class="navbar-link">Destinations</a></li>
+            <li><a href="packages.html" class="navbar-link">Packages</a></li>
+            <li><a href="#gallery" class="navbar-link">Gallery</a></li>
+            <li><a href="#contact" class="navbar-link">Contact Us</a></li>
+          </ul>
         </nav>
+        
         
         <button class="btn btn-primary">Book Now</button>
     </div>
@@ -64,8 +71,9 @@
           <h2 class="h1 hero-title">Journey to explore India</h2>
           <p class="hero-text">Experience the rich culture and breathtaking landscapes of India. From the Himalayas to the beaches of Goa, there's something for every traveler.</p>
           <div class="btn-group">
-            <button class="btn btn-primary">Learn more</button>
-            <button class="btn btn-secondary">Book now</button>
+            <button class="btn btn-primary" aria-label="Learn more about India">Learn more</button>
+            <button class="btn btn-secondary" aria-label="Book your journey now">Book now</button>
+
           </div>
         </div>
       </section>
@@ -218,6 +226,19 @@
             <li class="gallery-item"><figure class="gallery-image"><img src="./assets/images/gallery-5.jpg" alt="Sunset in Rajasthan"></figure></li>
             <li class="gallery-item"><figure class="gallery-image"><img src="./assets/images/gallery-4.jpg" alt="Backwaters of Kerala"></figure></li>
           </ul>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="h2 section-title">About Us</h2>
+          <p class="section-text">
+            At Tourly, we are passionate about showcasing the beauty and diversity of India
+          </p>
+          <p class="section-text">
+            Our mission is to make travel hassle-free and memorable by offering a range of packages with popular destinations
+          </p>
+          <button class="btn btn-primary">Learn More</button>
         </div>
       </section>
     </article>
